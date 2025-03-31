@@ -26,6 +26,7 @@ const Todo = sequelize.define(
     tableName: 'todos',
     timestamps: false,
   }
+  
 );
 
 module.exports = Todo;
